@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redux Saga</title>
+
+    <style media="screen">
+      html, body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      input[type=button]{
+        border-style: none;
+        border-radius: 3px;
+      }
+
+      input[type=button]:hover{
+        opacity: 0.8;
+      }
+
+      input[id=add-btn]{
+        background-color: green;
+      }
+
+      input[id=dispatch-btn]{
+        color: darkslategray!important;
+        background-color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <input id="add-btn" type="button" value="Add New Msg">
+      <input id="dispatch-btn" type="button" value="Dispatch Msg">
+    </div>
+  </body>
+</html>
